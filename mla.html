@@ -15,12 +15,7 @@
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- Custom styles for this template -->
-    <style>
-    .btn-huge{
-        padding-top:50px;
-        padding-bottom:50px;
-    }
-    </style>
+
   </head>
 
   <body>
@@ -42,29 +37,58 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="about.html">About</a></li>
-        <li><a href="mla.html">MLA</a></li>
-        <li><a href="apa.html">APA</a></li>
-        <li><a href="chicago.html">Chicago</a></li>
+        <li class="active"><a href="#">MLA <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">APA</a></li>
+        <li><a href="#">Chicago</a></li>
      </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
     <!-- Page Content -->
-    <div class="container">
-        <br>
-    	<div class="row">
-            <div class="col-md-4">
-                <a href="mla.html" class="btn btn-default btn-lg btn-block btn-huge">MLA</a>
-            </div>
-            <div class="col-md-4">
-                <a href="apa.html" class="btn btn-default btn-lg btn-block btn-huge">APA</a>
-            </div>
-            <div class="col-md-4">
-                <a href="chicago.html" class="btn btn-default btn-lg btn-block btn-huge">Chicago</a>
-            </div>
-    	</div>
+<div class="container">
+  <div class="heading-style row">
+    <h3>MLA citation style<h3>
+    </div>
+    <div class="form-group row">
+    <label class="col-2 col-form-label">Title</label>
+    <div class="col-10">
+      <input class="form-control" type="text" value="i.e. Infinte Jest" id="APA-title-input">
+    </div>
+    </div>
+    <div class="form-group row">
+    <label class="col-2 col-form-label">Author Last Name</label>
+    <div class="col-10">
+      <input class="form-control" type="text"   id="APA-authorlast-input">
+    </div>
+    </div>
+    <div class="form-group row">
+    <label class="col-2 col-form-label">Author First Name</label>
+    <div class="col-10">
+      <input class="form-control" type="text"   id="APA-authorfirst-input">
+    </div>
+    </div>
+    <div class="form-group row">
+    <label class="col-2 col-form-label">Author Middle Name</label>
+    <div class="col-10">
+      <input class="form-control" type="text"   id="authormiddle-input">
+    </div>
+    </div>
+    <div class="form-group row">
+    <label class="col-2 col-form-label">Publisher</label>
+    <div class="col-10">
+      <input class="form-control" type="text"   id="publisher-input">
+    </div>
+    </div>
+    <div class="form-group row">
+    <label class="col-2 col-form-label">Year Published</label>
+    <div class="col-10">
+      <input class="form-control" type="text"   id="year-published-input">
+    </div>
+    </div>
+    </div>
+
+
 
     <!-- Bootstrap core JavaScript -->
     <script
